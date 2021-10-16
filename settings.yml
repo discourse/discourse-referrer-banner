@@ -1,0 +1,14 @@
+match_urls:
+  type: list
+  default: "discourse.org"
+  description: |
+    <ul>
+    <li> Do not include https://www</li>
+    <li> Root domains work fine! example: discourse.org</li>
+    <li> Accepts regex; <a href="https://regexr.com/" target="_blank">try it out on https://regexr.com/</a></li>
+    </ul>
+
+banner_content:
+  type: string
+  textarea: true
+  default: ""
