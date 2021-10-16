@@ -1,0 +1,11 @@
+// spacing adjustments
+.below-site-header-outlet.referrer-banner {
+  margin: 1em 0;
+  .alert.alert-info {
+    background: var(--quaternary-low);
+    margin-bottom: 0;
+  }
+  + #main-outlet {
+    padding-top: 1.5em;
+  }
+}
